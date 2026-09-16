@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<meta name="aso-build" content="1669d3c80080">
+<meta name="aso-build" content="6f7ec964a63a">
 <title>Agnew General Engineering Ltd sample homepage</title>
 <meta name="description" content="Aluminium and stainless steel repairs, gates and railings, bespoke fabrication for commercial and domestic customers in Gilford.">
 <link rel="canonical" href="https://markygff.github.io/aso-mockups/03dd43621b/">
@@ -28,10 +28,12 @@
 }
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;font-family:var(--font);color:var(--ink);background:#fff;font-size:17px;
-  line-height:1.62;-webkit-font-smoothing:antialiased}
+  line-height:1.62;-webkit-font-smoothing:antialiased;
+  overflow-wrap:break-word;word-wrap:break-word}
 img{max-width:100%;height:auto;display:block}
 a{text-decoration:none;color:var(--primary)}
-h1,h2,h3{margin:0;line-height:1.13;letter-spacing:-.022em;font-weight:800}
+h1,h2,h3{margin:0;line-height:1.13;letter-spacing:-.022em;font-weight:800;
+  overflow-wrap:break-word;word-wrap:break-word}
 p{margin:0}
 .wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 24px}
 .eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;
@@ -110,9 +112,56 @@ p{margin:0}
 .footer-in{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between}
 
 @media (max-width:960px){
-  .hero-in{grid-template-columns:1fr;gap:34px}
-  .grid{grid-template-columns:1fr}
+  .hero-in{grid-template-columns:minmax(0,1fr);gap:34px}
+  .hero-in>*,.grid>*{min-width:0}
+  .grid{grid-template-columns:minmax(0,1fr)}
   .nav{display:none}
+}
+
+/* Phones. Same block as the one-pager, same reason: see the note in
+   onepager.html.j2. A teaser is the first thing a prospect ever opens and
+   they open it on a phone. */
+@media (max-width:767px){
+  body{font-size:16px}
+  .wrap{padding:0 16px}
+
+  .header-in{height:auto;min-height:60px;gap:10px;padding:8px 16px}
+  .brand{flex:1 1 auto;min-width:0;gap:9px}
+  .brand>div{min-width:0}
+  .brand img{max-height:34px}
+  .brand-name{font-size:.98rem;display:block;max-width:100%;white-space:nowrap;
+    overflow:hidden;text-overflow:ellipsis}
+  .brand-sub{display:none}
+  .header-cta{margin-left:auto;gap:8px;flex:none}
+  .header-cta .btn{display:none}
+  .tel{flex:none;width:44px;height:44px;border-radius:50%;gap:0;
+    background:var(--accent);color:var(--on-accent);justify-content:center}
+  .tel svg{width:22px;height:22px;color:var(--on-accent)}
+  .tel span{display:none}
+
+  .hero-in{gap:28px;padding:36px 16px 40px}
+  .hero h1{font-size:clamp(1.5rem,6.4vw,2.1rem);max-width:none;margin-bottom:14px}
+  .hero-sub{font-size:1rem;max-width:none;margin-bottom:22px}
+  .hero-actions{flex-direction:column;align-items:stretch;gap:10px;margin-bottom:24px}
+  .hero-bullets{gap:10px 18px}
+  .hero-bullets li{font-size:.92rem}
+
+  .btn{width:100%;justify-content:center;text-align:center;white-space:normal;
+    padding:14px 18px;font-size:.98rem;line-height:1.25}
+
+  .quote-card{padding:22px 18px;border-radius:14px}
+  .quote-card h3{font-size:1.18rem}
+
+  .strip-in{gap:12px 20px;padding:16px}
+  .strip-item{font-size:.92rem}
+
+  .services{padding:44px 0 50px}
+  .services-head{margin-bottom:26px}
+  .grid{gap:16px}
+  .card{padding:20px}
+
+  .footer{padding:24px 0}
+  .footer-in{gap:6px 14px}
 }
 </style>
 </head>
@@ -121,7 +170,7 @@ p{margin:0}
 <header class="header">
   <div class="wrap header-in">
     <div class="brand">
-      <div>
+<img src="img/logo.png" alt="Agnew General Engineering Ltd logo">      <div>
         <div class="brand-name">Agnew General Engineering Ltd</div>
 <div class="brand-sub">Gilford</div>      </div>
     </div>
