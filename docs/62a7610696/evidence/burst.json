@@ -1,0 +1,158 @@
+[
+ {
+  "burst_of": "Chrome",
+  "requests": [
+   {
+    "bot": "Chrome",
+    "time": "2026-09-25 13:41:26 UTC",
+    "status": 200
+   },
+   {
+    "bot": "Chrome",
+    "time": "2026-09-25 13:41:29 UTC",
+    "status": 200
+   },
+   {
+    "bot": "Chrome",
+    "time": "2026-09-25 13:41:31 UTC",
+    "status": 200
+   },
+   {
+    "bot": "Chrome",
+    "time": "2026-09-25 13:41:33 UTC",
+    "status": 200
+   },
+   {
+    "bot": "Chrome",
+    "time": "2026-09-25 13:41:35 UTC",
+    "status": 200
+   },
+   {
+    "bot": "Chrome",
+    "time": "2026-09-25 13:41:38 UTC",
+    "status": 200
+   }
+  ],
+  "then_perplexity": null
+ },
+ {
+  "burst_of": "GPTBot",
+  "requests": [
+   {
+    "bot": "GPTBot",
+    "time": "2026-09-25 13:43:40 UTC",
+    "status": 200
+   },
+   {
+    "bot": "GPTBot",
+    "time": "2026-09-25 13:43:43 UTC",
+    "status": 200
+   },
+   {
+    "bot": "GPTBot",
+    "time": "2026-09-25 13:43:45 UTC",
+    "status": 200
+   },
+   {
+    "bot": "GPTBot",
+    "time": "2026-09-25 13:43:47 UTC",
+    "status": 200
+   },
+   {
+    "bot": "GPTBot",
+    "time": "2026-09-25 13:43:49 UTC",
+    "status": 429
+   },
+   {
+    "bot": "GPTBot",
+    "time": "2026-09-25 13:43:51 UTC",
+    "status": 200
+   }
+  ],
+  "then_perplexity": {
+   "bot": "PerplexityBot",
+   "time": "2026-09-25 13:43:54 UTC",
+   "status": 429
+  }
+ },
+ {
+  "burst_of": "ChatGPT-User",
+  "requests": [
+   {
+    "bot": "ChatGPT-User",
+    "time": "2026-09-25 13:45:54 UTC",
+    "status": 200
+   },
+   {
+    "bot": "ChatGPT-User",
+    "time": "2026-09-25 13:45:56 UTC",
+    "status": 200
+   },
+   {
+    "bot": "ChatGPT-User",
+    "time": "2026-09-25 13:45:58 UTC",
+    "status": 200
+   },
+   {
+    "bot": "ChatGPT-User",
+    "time": "2026-09-25 13:46:00 UTC",
+    "status": 200
+   },
+   {
+    "bot": "ChatGPT-User",
+    "time": "2026-09-25 13:46:02 UTC",
+    "status": 429
+   },
+   {
+    "bot": "ChatGPT-User",
+    "time": "2026-09-25 13:46:04 UTC",
+    "status": 200
+   }
+  ],
+  "then_perplexity": {
+   "bot": "PerplexityBot",
+   "time": "2026-09-25 13:46:06 UTC",
+   "status": 429
+  }
+ },
+ {
+  "burst_of": "Googlebot",
+  "requests": [
+   {
+    "bot": "Googlebot",
+    "time": "2026-09-25 13:48:06 UTC",
+    "status": 200
+   },
+   {
+    "bot": "Googlebot",
+    "time": "2026-09-25 13:48:09 UTC",
+    "status": 200
+   },
+   {
+    "bot": "Googlebot",
+    "time": "2026-09-25 13:48:11 UTC",
+    "status": 200
+   },
+   {
+    "bot": "Googlebot",
+    "time": "2026-09-25 13:48:13 UTC",
+    "status": 200
+   },
+   {
+    "bot": "Googlebot",
+    "time": "2026-09-25 13:48:15 UTC",
+    "status": 200
+   },
+   {
+    "bot": "Googlebot",
+    "time": "2026-09-25 13:48:17 UTC",
+    "status": 200
+   }
+  ],
+  "then_perplexity": {
+   "bot": "PerplexityBot",
+   "time": "2026-09-25 13:48:19 UTC",
+   "status": 200
+  }
+ }
+]

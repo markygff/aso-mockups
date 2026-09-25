@@ -1,0 +1,74 @@
+[
+ {
+  "round": 1,
+  "bot": "GPTBot",
+  "time": "2026-09-25 13:22:29 UTC",
+  "status": 200
+ },
+ {
+  "round": 1,
+  "bot": "ClaudeBot",
+  "time": "2026-09-25 13:23:59 UTC",
+  "status": 200
+ },
+ {
+  "round": 1,
+  "bot": "OAI-SearchBot",
+  "time": "2026-09-25 13:25:29 UTC",
+  "status": 200
+ },
+ {
+  "round": 1,
+  "bot": "ChatGPT-User",
+  "time": "2026-09-25 13:27:00 UTC",
+  "status": 200
+ },
+ {
+  "round": 1,
+  "bot": "PerplexityBot",
+  "time": "2026-09-25 13:28:30 UTC",
+  "status": 200
+ },
+ {
+  "round": 1,
+  "bot": "Googlebot",
+  "time": "2026-09-25 13:30:01 UTC",
+  "status": 200
+ },
+ {
+  "round": 2,
+  "bot": "GPTBot",
+  "time": "2026-09-25 13:31:31 UTC",
+  "status": 200
+ },
+ {
+  "round": 2,
+  "bot": "ClaudeBot",
+  "time": "2026-09-25 13:33:01 UTC",
+  "status": 200
+ },
+ {
+  "round": 2,
+  "bot": "OAI-SearchBot",
+  "time": "2026-09-25 13:34:31 UTC",
+  "status": 200
+ },
+ {
+  "round": 2,
+  "bot": "ChatGPT-User",
+  "time": "2026-09-25 13:36:02 UTC",
+  "status": 200
+ },
+ {
+  "round": 2,
+  "bot": "PerplexityBot",
+  "time": "2026-09-25 13:37:33 UTC",
+  "status": 200
+ },
+ {
+  "round": 2,
+  "bot": "Googlebot",
+  "time": "2026-09-25 13:39:04 UTC",
+  "status": 200
+ }
+]

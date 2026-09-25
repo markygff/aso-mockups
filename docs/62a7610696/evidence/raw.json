@@ -1,0 +1,721 @@
+[
+ {
+  "domain": "www.evo-plumbingandheating.co.uk",
+  "collected": "2026-09-25 13:21:08 UTC",
+  "bots": {
+   "PerplexityBot": [
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 200,
+     "bytes": 60878,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 200,
+     "bytes": 60878,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 200,
+     "bytes": 60878,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    }
+   ],
+   "OAI-SearchBot": [
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 200,
+     "bytes": 60878,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+   ],
+   "ChatGPT-User": [
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+   ],
+   "GPTBot": [
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+   ],
+   "ClaudeBot": [
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+   ],
+   "Googlebot": [
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 200,
+     "bytes": 60878,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 200,
+     "bytes": 60878,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:08 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 200,
+     "bytes": 60878,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    }
+   ],
+   "Chrome": [
+    {
+     "time": "2026-09-25 13:21:09 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 200,
+     "bytes": 60878,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:09 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 200,
+     "bytes": 60878,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:09 UTC",
+     "url": "https://www.evo-plumbingandheating.co.uk/",
+     "final_url": "https://www.evo-plumbingandheating.co.uk/",
+     "status": 200,
+     "bytes": 60878,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    }
+   ]
+  },
+  "robots_status": 200,
+  "robots_txt": "User-agent: *\nAllow: /",
+  "sitemaps": [
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/sitemap.xml",
+    "status": 500,
+    "locs": 0
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/sitemap_index.xml",
+    "status": 500,
+    "locs": 0
+   }
+  ],
+  "home_canonical": null,
+  "home_meta_robots": null,
+  "pages": [
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/about",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/blocked-sinks-toilets",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/blog",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/blog/10-common-plumbing-issues",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/blog/eco-friendly-plumbing",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/boiler-servicing-repairs",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/central-heating",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/contact",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/gutter-cleaning",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/patio-cleaning",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/plumbing",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/power-flushing",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/recruitment",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/roof-cleaning",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/services/east-sussex",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/services/hampshire",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/services/kent",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/services/london",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/services/surrey",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-plumbingandheating.co.uk/services/west-sussex",
+    "status": 200,
+    "jsonld": []
+   }
+  ],
+  "pages_total_in_sitemap": 21
+ },
+ {
+  "domain": "www.evo-homeservices.co.uk",
+  "collected": "2026-09-25 13:21:19 UTC",
+  "bots": {
+   "PerplexityBot": [
+    {
+     "time": "2026-09-25 13:21:19 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 200,
+     "bytes": 34056,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:19 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:19 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+   ],
+   "OAI-SearchBot": [
+    {
+     "time": "2026-09-25 13:21:19 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:19 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+   ],
+   "ChatGPT-User": [
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+   ],
+   "GPTBot": [
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+   ],
+   "ClaudeBot": [
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 429,
+     "bytes": 162,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html"
+     },
+     "body_head": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+   ],
+   "Googlebot": [
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 200,
+     "bytes": 34056,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 200,
+     "bytes": 34056,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 200,
+     "bytes": 34056,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    }
+   ],
+   "Chrome": [
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 200,
+     "bytes": 34056,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 200,
+     "bytes": 34056,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    },
+    {
+     "time": "2026-09-25 13:21:20 UTC",
+     "url": "https://www.evo-homeservices.co.uk/",
+     "final_url": "https://www.evo-homeservices.co.uk/",
+     "status": 200,
+     "bytes": 34056,
+     "headers": {
+      "server": "nginx",
+      "content-type": "text/html",
+      "x-powered-by": "PleskLin"
+     },
+     "body_head": ""
+    }
+   ]
+  },
+  "robots_status": 200,
+  "robots_txt": "User-agent: *\nAllow: /",
+  "sitemaps": [
+   {
+    "url": "https://www.evo-homeservices.co.uk/sitemap.xml",
+    "status": 500,
+    "locs": 0
+   },
+   {
+    "url": "https://www.evo-homeservices.co.uk/sitemap_index.xml",
+    "status": 500,
+    "locs": 0
+   }
+  ],
+  "home_canonical": null,
+  "home_meta_robots": null,
+  "pages": [
+   {
+    "url": "https://www.evo-homeservices.co.uk/",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-homeservices.co.uk/about",
+    "status": 200,
+    "jsonld": []
+   },
+   {
+    "url": "https://www.evo-homeservices.co.uk/contact",
+    "status": 200,
+    "jsonld": []
+   }
+  ],
+  "pages_total_in_sitemap": 3
+ }
+]

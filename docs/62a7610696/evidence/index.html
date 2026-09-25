@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>EVO technical evidence</title>
+<style>
+:root{--ink:#15202b;--muted:#5b6b7a;--line:#dde3e8;--tint:#f4f7f9;--flag:#a3321b;--ok:#1f6b3a;--paper:#fff}
+@media (prefers-color-scheme:dark){:root{--ink:#e6edf3;--muted:#9fb0c0;--line:#2c3742;--tint:#172029;--flag:#ff8a6b;--ok:#6fd49a;--paper:#0f151b}}
+*{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:28px 16px 60px}
+h1{font-size:1.6rem;margin:0 0 6px} h2{font-size:1.2rem;margin:34px 0 8px;padding-top:14px;border-top:1px solid var(--line)}
+p,li{max-width:72ch} .muted{color:var(--muted)} b{color:var(--flag)}
+table{width:100%;border-collapse:collapse;font-size:.9rem;margin:10px 0;display:block;overflow-x:auto}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top;white-space:nowrap}
+th{background:var(--tint)} td:first-child{white-space:normal}
+pre{background:var(--tint);padding:12px;border-radius:8px;overflow-x:auto;font-size:.82rem;white-space:pre-wrap;word-break:break-all}
+.box{background:var(--tint);border-left:4px solid var(--flag);padding:12px 14px;border-radius:0 8px 8px 0;margin:14px 0}
+.ok{border-left-color:var(--ok)}
+</style></head><body><div class="wrap">
+<h1>EVO: technical evidence</h1>
+<p class="muted">Collected by Foundwork on 25 September 2026 for Steve and Harvey at EVO Home Services Ltd. Sites tested: www.evo-plumbingandheating.co.uk and www.evo-homeservices.co.uk. Every command on this page can be run from any computer to check the result.</p>
+
+<h2>1. Two corrections to our email</h2>
+<div class="box"><p><strong>Perplexity and the 429s.</strong> We wrote that Perplexity's crawler was "being turned away by your host, a 429 on three tries". That overstated it. Tested properly today, a single request from any AI crawler, Perplexity included, gets a normal 200. The 429s come from a rate limit that your server applies to AI crawlers as a group: roughly four requests in ten seconds, then a 429 for a few seconds. Our Friday test sent requests quickly enough to trip it. Section 2 has the detail.</p>
+<p><strong>ChatGPT and your services.</strong> You are right that ChatGPT can identify from public information that EVO provides plumbing, heating and drainage and the areas you cover. It gets that from your page text and from other sites. What our email meant, and should have said plainly, is that none of your pages carries structured data (schema.org JSON-LD) stating it explicitly. That is true of every page we checked, including your service and location pages (section 5). It is an improvement, not a sign that you cannot be found.</p></div>
+
+<h2>2. AI crawlers: single requests</h2>
+<p>One request at a time, 90 seconds apart, to <code>https://www.evo-plumbingandheating.co.uk/</code>. Every one was answered normally.</p>
+<table><tr><th>Time (UTC)</th><th>Crawler</th><th>Status</th></tr><tr><td>2026-09-25 13:22:29 UTC</td><td>GPTBot</td><td>200</td></tr><tr><td>2026-09-25 13:23:59 UTC</td><td>ClaudeBot</td><td>200</td></tr><tr><td>2026-09-25 13:25:29 UTC</td><td>OAI-SearchBot</td><td>200</td></tr><tr><td>2026-09-25 13:27:00 UTC</td><td>ChatGPT-User</td><td>200</td></tr><tr><td>2026-09-25 13:28:30 UTC</td><td>PerplexityBot</td><td>200</td></tr><tr><td>2026-09-25 13:30:01 UTC</td><td>Googlebot</td><td>200</td></tr><tr><td>2026-09-25 13:31:31 UTC</td><td>GPTBot</td><td>200</td></tr><tr><td>2026-09-25 13:33:01 UTC</td><td>ClaudeBot</td><td>200</td></tr><tr><td>2026-09-25 13:34:31 UTC</td><td>OAI-SearchBot</td><td>200</td></tr><tr><td>2026-09-25 13:36:02 UTC</td><td>ChatGPT-User</td><td>200</td></tr><tr><td>2026-09-25 13:37:33 UTC</td><td>PerplexityBot</td><td>200</td></tr><tr><td>2026-09-25 13:39:04 UTC</td><td>Googlebot</td><td>200</td></tr></table>
+
+<h2>3. AI crawlers: several requests close together</h2>
+<p>After two quiet minutes, six requests two seconds apart from one user agent, then one request from PerplexityBot straight afterwards. Bold means refused.</p>
+<table><tr><th>Six requests as</th><th>Statuses in order</th><th>PerplexityBot straight after</th><th>Started (UTC)</th></tr><tr><td>Chrome</td><td>200 200 200 200 200 200</td><td>-</td><td>2026-09-25 13:41:26 UTC</td></tr><tr><td>GPTBot</td><td>200 200 200 200 <b>429</b> 200</td><td>429</td><td>2026-09-25 13:43:40 UTC</td></tr><tr><td>ChatGPT-User</td><td>200 200 200 200 <b>429</b> 200</td><td>429</td><td>2026-09-25 13:45:54 UTC</td></tr><tr><td>Googlebot</td><td>200 200 200 200 200 200</td><td>200</td><td>2026-09-25 13:48:06 UTC</td></tr></table>
+<p>So: browsers and Googlebot were not limited at this rate. OpenAI's and Anthropic's crawlers, ChatGPT's own fetcher and Perplexity share one limit. When one of them uses it up, the next AI request of any kind is refused for a few seconds. OAI-SearchBot, ChatGPT's search crawler, is not blocked: single requests get 200 (section 2), and it sits under the same shared limit.</p>
+<p><strong>Where the 429 comes from.</strong> The refusal is the standard nginx page, served by the same server as your normal pages (response header <code>server: nginx</code>; your normal pages also send <code>x-powered-by: PleskLin</code>, a Plesk server on Linux). There is no CDN or third-party firewall in front of the site: no Cloudflare, Sucuri or similar headers in any response. So the rule is in your hosting's nginx configuration. We cannot see that configuration from outside, so we cannot say whether your host added it or it came with the Plesk setup.</p>
+<pre>HTTP/2 429
+server: nginx
+content-type: text/html
+content-length: 162
+
+&lt;html&gt;&lt;head&gt;&lt;title&gt;429 Too Many Requests&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;&lt;center&gt;&lt;h1&gt;429 Too Many Requests&lt;/h1&gt;&lt;/center&gt;&lt;hr&gt;&lt;center&gt;nginx&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+
+<h2>4. robots.txt</h2>
+<pre>User-agent: *
+Allow: /</pre>
+<p>This allows every crawler everything, and it is the same on both sites. robots.txt is not restricting any AI or search crawler. The rate limit in section 3 is separate from it.</p>
+
+<h2>5. Structured data (schema.org JSON-LD)</h2>
+<p>Every page reachable from each homepage, checked for any <code>application/ld+json</code> block. Neither site has a sitemap to list more pages (section 6).</p>
+<table><tr><th>Page</th><th>Status</th><th>JSON-LD found</th></tr><tr><td>https://www.evo-plumbingandheating.co.uk/</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/about</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/blocked-sinks-toilets</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/blog</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/blog/10-common-plumbing-issues</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/blog/eco-friendly-plumbing</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/boiler-servicing-repairs</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/central-heating</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/contact</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/gutter-cleaning</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/patio-cleaning</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/plumbing</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/power-flushing</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/recruitment</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/roof-cleaning</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/services/east-sussex</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/services/hampshire</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/services/kent</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/services/london</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/services/surrey</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-plumbingandheating.co.uk/services/west-sussex</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-homeservices.co.uk/</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-homeservices.co.uk/about</td><td>200</td><td>none</td></tr><tr><td>https://www.evo-homeservices.co.uk/contact</td><td>200</td><td>none</td></tr></table>
+<p>No page on either site has LocalBusiness, Organization or any other schema. What is missing is the block that states, in a fixed format search engines and AI tools read directly: the business name, that it is a plumbing and heating business, the phone number, the address, the counties served (Kent, Surrey, Sussex, Hampshire, London, from your own location pages), the services, and opening hours. It can be added to your existing pages.</p>
+
+<h2>6. Sitemap, error pages, canonical tags</h2>
+<ul>
+<li><strong>No sitemap.</strong> <code>/sitemap.xml</code>, <code>/sitemap_index.xml</code> and <code>/wp-sitemap.xml</code> all return HTTP 500, and robots.txt names none. Search engines have to find pages by following links.</li>
+<li><strong>A page that does not exist returns 500, not 404.</strong> Any unknown address shows "We're sorry, but something went wrong: Web application could not be started" with status 500. Search engines read a 500 as your server failing, not a missing page.</li>
+<li><strong>No canonical tag</strong> on the homepage. Minor, but it is how a site tells search engines which address is the main one when a page can be reached more than one way.</li>
+</ul>
+
+<h2>7. What needs a new website, and what does not</h2>
+<div class="box ok"><p>Honestly: none of these strictly requires a new website. All can be fixed on your current site and hosting.</p></div>
+<table><tr><th>Finding</th><th>Where it is fixed</th><th>New site needed?</th></tr>
+<tr><td>Rate limit on AI crawlers (section 3)</td><td>Hosting: nginx rule on the Plesk server</td><td>No</td></tr>
+<tr><td>No structured data (section 5)</td><td>Add JSON-LD to the existing pages</td><td>No</td></tr>
+<tr><td>No sitemap (section 6)</td><td>Generate one in the site build or CMS</td><td>No</td></tr>
+<tr><td>Missing pages return 500 (section 6)</td><td>Web app or server configuration</td><td>No</td></tr>
+<tr><td>No canonical tags (section 6)</td><td>Page template</td><td>No</td></tr>
+</table>
+<p>What we offer is a site built with all of this in place from the start and checked each month, rather than a fix that only a rebuild can deliver. If Harvey prefers to make these changes on the current site, this page is everything he needs to do it.</p>
+
+<h2>8. Check it yourself</h2>
+<p>From any Mac or Linux terminal. The first loop should show a 429 somewhere after the fourth request; the second, with a browser user agent, should show six 200s.</p>
+<pre>for i in 1 2 3 4 5 6; do curl -s -o /dev/null -w "%{http_code} " \
+  -A "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; GPTBot/1.2; +https://openai.com/gptbot" https://www.evo-plumbingandheating.co.uk/; sleep 2; done; echo
+
+for i in 1 2 3 4 5 6; do curl -s -o /dev/null -w "%{http_code} " \
+  -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36" https://www.evo-plumbingandheating.co.uk/; sleep 2; done; echo
+
+curl -s https://www.evo-plumbingandheating.co.uk/robots.txt
+curl -s -o /dev/null -w "%{http_code}\n" https://www.evo-plumbingandheating.co.uk/sitemap.xml
+curl -s -o /dev/null -w "%{http_code}\n" https://www.evo-plumbingandheating.co.uk/does-not-exist
+curl -s https://www.evo-plumbingandheating.co.uk/services/kent | grep -c 'application/ld+json'
+curl -s https://www.evo-plumbingandheating.co.uk/ | grep -ci 'rel="canonical"'</pre>
+<p class="muted">Raw results as JSON: <a href="raw.json">raw.json</a>, <a href="spaced.json">spaced.json</a>, <a href="burst.json">burst.json</a>.</p>
+</div></body></html>
