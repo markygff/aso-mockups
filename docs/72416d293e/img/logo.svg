@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="45"
+   height="26.414"
+   viewBox="0 0 45.000002 26.414"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="arrow-down2.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="10.5"
+     inkscape:cy="13"
+     inkscape:window-width="1600"
+     inkscape:window-height="829"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <g
+     id="Group_12"
+     data-name="Group 12"
+     transform="translate(-344.793,-540.5)">
+    <path
+       id="Path_5"
+       data-name="Path 5"
+       d="m 6514,384.572 9.5,9.5 -9.5,9.5"
+       transform="rotate(90,3353.5365,-2604.4635)"
+       fill="none"
+       stroke="#045e77"
+       stroke-width="2" />
+    <line
+       id="Line_25"
+       data-name="Line 25"
+       y1="25"
+       transform="translate(355,540.5)"
+       fill="none"
+       stroke="#045e77"
+       stroke-width="2"
+       x1="0"
+       x2="0"
+       y2="0" />
+  </g>
+</svg>
